@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Welcome to Animal Dashboard!</h2>
+      <table class="table table-bordered t1">
+        <thead>
+          <tr>
+            <th>NAME</th>
+            <th>WEIGHT</th>
+            <th>LIFESPAN</th>
+            <th>PREDATORS</th>
+            <th>DIET</th>
+            <th>ACTION</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <% for (var animal of animals) { %>
+          <tr>
+            <td><%= animal.name %></td>
+            <td><%= animal.weight %></td>
+            <td><%= animal.lifespan%></td>
+            <td><%= animal.predators %></td>
+            <td><%= animal.diet%></td>
+            <th> <a href="/animals/<%=animal._id%>" class="button1"> SHOW </a> <a href="/animals/edit/<%=animal._id%>" class="button1"> EDIT </a> </th>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+
+      <a href="/animals/new" class="button1" role="button">Add new Animal!</a>
+    </div>
+  </body>
+</html>

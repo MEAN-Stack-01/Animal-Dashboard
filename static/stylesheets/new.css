@@ -1,0 +1,50 @@
+body{
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+h2,.users{
+  margin: 2em;
+  color : white;
+  font-size: 2em;
+
+}
+
+
+
+h3,.creator{
+  color : red;
+  font-size: 0.75em;
+
+}
+
+label{
+  color : white;
+  font-size: 1em;
+}
+
+ul{
+  list-style: none;
+}
+
+.button1 {
+  height : 3em;
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  border-radius: 5px;
+  font-size: 1em;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+}
+
+/* .creator{
+  height : 1em;
+
+} */
+
+
+.listblk{
+  background-color: #3498db;
+}

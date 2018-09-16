@@ -1,0 +1,39 @@
+body{
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: left;
+}
+
+h2,.users{
+  text-align: center;
+  margin: 2em;
+  color : white;
+  font-size: 2em;
+
+}
+
+.list1{
+  color : white;
+  font-size: 1.5em;
+}
+
+.listitem1{
+  color : white;
+  font-size: 1em;
+}
+
+.button1 {
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  border-radius: 5px;
+  font-size: 1em;
+  color: white;
+  padding: .5em;
+  margin-left: 2em;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
